@@ -9,8 +9,6 @@ function printResults () {
 		console.log(results[i])
 }
 
-
-
 var httpGet = function (index) {
 	http.get(urls[index], function(res){
 	res.pipe(bl(function(err,data){
